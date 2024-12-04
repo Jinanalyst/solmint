@@ -1,0 +1,9 @@
+[workspace]
+members = [
+    "liquidity-pool",
+    "staking",
+    "lending"
+]
+
+[profile.release]
+overflow-checks = true
